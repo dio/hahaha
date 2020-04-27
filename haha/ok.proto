@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package haha;
+option go_package = "github.com/ok/ok/haha";
+
+enum Haha {
+    UNKNOWN = 0;
+    HTTP = 1;
+    GRPC = 2;
+}
+
+message OK{
+    Haha haha = 1;
+}

@@ -14,5 +14,5 @@ func main() {
 	if err := jsonpb.UnmarshalString(json, &ok); err != nil {
 		fmt.Println(err.Error())
 	}
-	fmt.Printf("%v\n", ok.Haha)
+	fmt.Printf("lol: %v\n", ok.Haha)
 }
